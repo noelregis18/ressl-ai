@@ -12,7 +12,6 @@ function App() {
   const [newFileContent, setNewFileContent] = useState('');
   const [prompt, setPrompt] = useState('');
   const [message, setMessage] = useState('');
-  const [fileInfos, setFileInfos] = useState({});
 
   // Fetch file list
   const fetchFiles = async () => {
